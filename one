@@ -1,0 +1,9 @@
+mkdir extra-credit
+cd extra-credit
+touch main.sh
+chmod +x main.sh
+git init 
+git remote add origin https://github.com/<arios8>/comp141-extra-credit.git
+git add .
+git commit -m "Initial commit"
+git push -u orgin master 
